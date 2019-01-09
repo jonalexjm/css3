@@ -1,0 +1,44 @@
+/*selectores de etiqueta*/
+/*se utiliza para dar estilos generales*/
+
+p{
+    color: blue;
+}
+
+h1{
+    color:red;
+}
+
+/*selectores de clase*/
+
+.apunte{
+    color: violet;
+}
+
+.resena{
+    color: brown;
+}
+/*Selectores de id*/
+
+#ejemploid{
+    color: darkorange;
+}
+
+/*Selectores de atributo*/
+/*seleccionar los elementos que tienen ese atributo*/
+[href]{
+    color: aqua;
+}
+
+/*seleccionar los elementos que tienen ese atributo y ese valor*/
+
+[href = "#"]{
+    color: red;
+}
+
+/*selector ascedente*/
+/*Se le aplica a todo los span que son hijos de p*/
+
+p span{
+    color: deeppink;
+}
